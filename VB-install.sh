@@ -19,6 +19,3 @@ sudo dnf -y search virtualbox
 #установка VirtualBox
 sudo dnf -y install VirtualBox-6.1
 
-#добавить себя в группу vboxusers
-sudo usermod -a -G vboxusers $USER
-newgrp vboxusers
